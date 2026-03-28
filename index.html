@@ -1,4 +1,4 @@
-<!DOCTYml>
+10 _<!DOCTYml>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,9 +6,14 @@
     <title>Ansh Shivhare - Full Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Custom Cursor Elements -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -20,6 +25,9 @@
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                <i class="fas fa-moon"></i>
+            </button>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -79,12 +87,8 @@
                         </p>
                         <div class="stats">
                             <div class="stat-item">
-                            <h3>10+</h3>
-                            <p>Projects Delivered</p>
-                            </div>
-                            <div class="stat-item">
-                            <h3>2+</h3>
-                            <p>Years of Experience</p>
+                            <h3>5+</h3>
+                            <p>Projects Built</p>
                             </div>
                     </div>
                 </div>
@@ -100,30 +104,30 @@
                 <div class="skill-category">
                     <h3>Frontend</h3>
                     <div class="skill-items">
-                        <span class="skill-item">Flutter</span>
-                        <span class="skill-item">Dart</span>
-                        <span class="skill-item">React</span>
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">HTML5</span>
-                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item"><i class="devicon-flutter-plain"></i> Flutter</span>
+                        <span class="skill-item"><i class="devicon-dart-plain"></i> Dart</span>
+                        <span class="skill-item"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-item"><i class="fab fa-js-square"></i> JavaScript</span>
+                        <span class="skill-item"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Backend</h3>
                     <div class="skill-items">
-                        <span class="skill-item">Node.js</span>
-                        <span class="skill-item">Firebase</span>
-                        <span class="skill-item">MongoDB</span>
-                        <span class="skill-item">REST APIs</span>
+                        <span class="skill-item"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="skill-item"><i class="fas fa-fire"></i> Firebase</span>
+                        <span class="skill-item"><i class="fas fa-leaf"></i> MongoDB</span>
+                        <span class="skill-item"><i class="fas fa-plug"></i> REST APIs</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Tools & Others</h3>
                     <div class="skill-items">
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">GitHub</span>
-                        <span class="skill-item">VS Code</span>
-                        <span class="skill-item">Figma</span>
+                        <span class="skill-item"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-item"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-item"><i class="fab fa-windows"></i> VS Code</span>
+                        <span class="skill-item"><i class="fab fa-figma"></i> Figma</span>
                     </div>
                 </div>
             </div>
